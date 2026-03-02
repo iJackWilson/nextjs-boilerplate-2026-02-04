@@ -1,2 +1,13 @@
-- name: Socket Basics Security Scanner
-  uses: SocketDev/socket-basics@1.1.1
+name: Socket Security Scan
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+jobs:
+  socket:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Socket Basics Security Scanner
+        uses: SocketDev/socket-basics@1.1.1
