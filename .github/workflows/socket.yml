@@ -1,0 +1,2 @@
+- name: Socket Basics Security Scanner
+  uses: SocketDev/socket-basics@1.1.1
